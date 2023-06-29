@@ -1,0 +1,567 @@
+/* 
+Add rules Media for displayers  
+ */
+@media (width: 360px) {
+  .tec__name-one,
+  .tec__name-two,
+  .tec__name-three {
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Typography */
+  .links__font {
+    font: 400 0.75em/1.021 Merriweather Sans, sans-serif;
+  }
+
+  body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 320px; */
+  }
+  aside,
+  main,
+  footer {
+    max-width: 100vw;
+    margin: 0;
+  }
+
+  .mobile__card {
+    display: block;
+    width: 80vw;
+    margin: 1.875rem auto 0;
+  }
+
+  /* Aside */
+  .profile {
+    display: block;
+    width: 80vw;
+    margin: 2.5rem auto 0;
+    text-align: center;
+  }
+  .location__link,
+  .company__link,
+  .github__link,
+  .linkedin__link,
+  .twitter__link,
+  .web__link,
+  .email__link {
+    padding-left: 2rem;
+  }
+  .link__mobile {
+    padding-left: 0.625rem;
+  }
+  .tecnologies {
+    height: auto;
+  }
+  .experiences {
+    height: 21.813rem;
+  }
+  .educations {
+    height: 22rem;
+  }
+
+  /* Main */
+  .my__projects {
+    height: 5.375rem;
+    width: 80vw;
+    margin: 1.875rem auto 0;
+  }
+  .my__projects-mobile {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title__projects {
+    padding-left: 1.25rem;
+  }
+  .subtitle__projects {
+    padding-right: 1.25rem;
+  }
+  .projects {
+    height: 25rem;
+    width: 80vw;
+    margin: 1.875rem auto 0;
+  }
+  .project__one,
+  .project__two {
+    height: 11.625rem;
+    width: 80vw;
+    margin: 1.875rem auto 0;
+  }
+  .recent__posts {
+    height: 5.375rem;
+  }
+  .posts {
+    width: 80vw;
+    padding-top: 1rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2.625rem;
+  }
+  .post {
+    height: 12.563rem;
+  }
+  .content__post {
+    text-align: justify;
+  }
+  .content__java-mobile {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .recent__posts,
+  .post {
+    display: block;
+    width: 80vw;
+    margin: 2.5rem auto 0;
+  }
+  .star__number {
+    padding: 0;
+  }
+  .branch__number {
+    padding: 0;
+  }
+  .javascript__folder {
+    padding: 0;
+  }
+  .container__post {
+    height: auto;
+    width: 80vw;
+  }
+  .image__post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+  }
+  .post__tecnologies {
+    display: inline-block;
+    margin: auto;
+  }
+  .post__tecnologies-mobile {
+    display: flex;
+  }
+  .tecnologies__1,
+  .tecnologies__2,
+  .tecnologies__3,
+  .tecnologies__4 {
+    padding: 0.625rem 0.625rem 0 0;
+  }
+  .tecnologies__4-newPosition {
+    padding-left: 0.375rem;
+  }
+
+  /* Footer */
+  .author__footer {
+    display: block;
+    margin: 2.5rem auto 1.25rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 481px; */
+  }
+  aside,
+  main,
+  footer {
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile__card {
+    display: block;
+    width: 63vw;
+    margin: 1.875rem auto 0;
+  }
+
+  /* Aside */
+  .profile {
+    display: block;
+    width: 63vw;
+    margin: 2.5rem auto 0;
+    text-align: center;
+  }
+  .location__link,
+  .company__link,
+  .github__link,
+  .linkedin__link,
+  .twitter__link,
+  .web__link,
+  .email__link {
+    padding-left: 2rem;
+  }
+  .link__mobile {
+    padding-left: 0.625rem;
+  }
+  .tecnologies {
+    height: auto;
+  }
+  .experiences {
+    height: 21.813rem;
+  }
+  .educations {
+    height: 22rem;
+  }
+
+  /* Main */
+  .my__projects {
+    height: 5.375rem;
+    width: 63vw;
+    margin: 1.875rem auto 0;
+  }
+  .my__projects-mobile {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title__projects {
+    padding-left: 1.25rem;
+  }
+  .subtitle__projects {
+    padding-right: 1.25rem;
+  }
+  .projects {
+    height: 25rem;
+    width: 63vw;
+    margin: 1.875rem auto 0;
+  }
+  .project__one,
+  .project__two {
+    height: 11.625rem;
+  }
+  .recent__posts {
+    height: 5.375rem;
+  }
+  .posts {
+    width: 63vw;
+    padding-top: 1rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2.625rem;
+  }
+  .post {
+    height: 12.563rem;
+  }
+  .content__post {
+    text-align: justify;
+  }
+  .content__java-mobile {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .recent__posts,
+  .post {
+    display: block;
+    width: 63vw;
+    margin: 2.5rem auto 0;
+  }
+  .star__number {
+    padding: 0;
+  }
+  .branch__number {
+    padding: 0;
+  }
+  .javascript__folder {
+    padding: 0;
+  }
+  .javascript__folder-position {
+    padding-left: 7rem;
+  }
+  .container__post {
+    height: auto;
+  }
+  .image__post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+  }
+  .post__tecnologies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .post__tecnologies-mobile {
+    display: flex;
+  }
+  .tecnologies__1,
+  .tecnologies__2,
+  .tecnologies__3,
+  .tecnologies__4 {
+    padding: 0.625rem 0.625rem 0 0;
+  }
+  .tecnologies__4-newPosition {
+    padding-left: 0.375rem;
+  }
+
+  /* Footer */
+  .author__footer {
+    display: block;
+    margin: 2.5rem auto 1.25rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 769px; */
+  }
+  aside,
+  main,
+  footer {
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile__card {
+    display: block;
+    width: 50vw;
+    margin: 1.875rem auto 0;
+  }
+
+  /* Aside */
+  .profile {
+    display: block;
+    width: 50vw;
+    margin: 2.5rem auto 0;
+    text-align: center;
+  }
+  .location__link,
+  .company__link,
+  .github__link,
+  .linkedin__link,
+  .twitter__link,
+  .web__link,
+  .email__link {
+    padding-left: 2rem;
+  }
+  .link__mobile {
+    padding-left: 0.625rem;
+  }
+  .tecnologies {
+    height: auto;
+  }
+  .experiences {
+    height: 21.813rem;
+  }
+  .educations {
+    height: 22rem;
+  }
+
+  /* Main */
+  .my__projects {
+    height: 5.375rem;
+    width: 50vw;
+    margin: 1.875rem auto 0;
+  }
+  .my__projects-mobile {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title__projects {
+    padding-left: 1.25rem;
+  }
+  .subtitle__projects {
+    padding-right: 1.25rem;
+  }
+  .projects {
+    height: 25rem;
+    width: 50vw;
+    margin: 1.875rem auto 0;
+  }
+  .project__one,
+  .project__two {
+    height: 11.625rem;
+  }
+  .recent__posts {
+    height: 5.375rem;
+  }
+  .posts {
+    width: 50vw;
+    padding-top: 1rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2.625rem;
+  }
+  .post {
+    height: 12.563rem;
+  }
+  .content__post {
+    text-align: initial;
+  }
+  .content__java-mobile {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .recent__posts,
+  .post {
+    display: block;
+    width: 50vw;
+    margin: 2.5rem auto 0;
+  }
+  .star__number,
+  .branch__number,
+  .javascript__folder {
+    padding: 0;
+  }
+  .javascript__folder-position {
+    padding-left: 7rem;
+  }
+  .container__post {
+    height: auto;
+  }
+  .image__post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+  }
+  .post__tecnologies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .post__tecnologies-mobile {
+    display: flex;
+  }
+  .tecnologies__1,
+  .tecnologies__2,
+  .tecnologies__3,
+  .tecnologies__4 {
+    padding: 0.625rem 0.625rem 0 0;
+  }
+  .tecnologies__4-newPosition {
+    padding-left: 0.375rem;
+  }
+
+  /* Footer */
+  .author__footer {
+    display: block;
+    margin: 2.5rem auto 1.25rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  body {
+    width: 1025px;
+    margin: auto;
+    grid-template-rows: 110.375rem 1fr 3.625rem;
+    grid-template-columns: 20rem 1fr;
+    grid-column-gap: 1rem;
+  }
+
+  aside,
+  main {
+    margin-top: 2rem;
+  }
+  footer {
+    max-width: 100vw;
+  }
+
+  /* Aside */
+  .box__card {
+    margin: 1rem 1.75rem 0 1.75rem;
+  }
+  .profile {
+    height: 16.75rem;
+    width: 17rem;
+  }
+  .profile > div > figure {
+    padding-top: 1.5rem;
+  }
+  .profile__name {
+    padding-top: 1rem;
+  }
+  .profile__professional {
+    padding-top: 0.3125rem;
+  }
+  .links {
+    height: 21.75rem;
+    width: 17rem;
+  }
+  .location__name,
+  .company__name,
+  .github__name,
+  .linkedin__name,
+  .twitter__name,
+  .web__name,
+  .email__name {
+    padding-left: 1rem;
+  }
+  .tec__name-one,
+  .tec__name-two,
+  .tec__name-three {
+    gap: 0.75rem;
+  }
+  .tecnologies {
+    height: 19.5rem;
+    width: 17rem;
+  }
+  .experiences {
+    height: 21.813rem;
+    width: 17rem;
+  }
+  .educations {
+    height: 22rem;
+    width: 17rem;
+  }
+
+  /* Main */
+  .my__projects {
+    margin-top: 1rem;
+    height: 4.375rem;
+    width: 42rem;
+  }
+  .projects {
+    margin-top: 1.5rem;
+    height: 11.625rem;
+    width: 42rem;
+  }
+  .project__one,
+  .project__two {
+    height: 11.5rem;
+    width: 20rem;
+  }
+  .branch__number {
+    padding-right: 3.75rem;
+  }
+  .recent__posts {
+    height: 4.375rem;
+    width: 42rem;
+    padding: 1.25rem 0 1.875rem 1.875rem;
+  }
+  .container__post {
+    height: 13.563rem;
+    width: 42rem;
+  }
+  .content__post {
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  body {
+    width: 1441px;
+    margin: auto;
+  }
+}
+
+/* 320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs */

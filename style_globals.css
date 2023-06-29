@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Colors */
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --text-color-black: #000000;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  /* Page */
+  --body-height: 110.438rem; /* 1767px; */
+  --body-width: 90rem; /* 1440px; */
+}
+/* Typography */
+.title__font {
+  font: 700 1.25em/1.57125 Merriweather Sans, sans-serif;
+}
+.profile__title-font {
+  font: 700 1.4375em/1.806875 Merriweather Sans, sans-serif;
+}
+.profile__professional-font {
+  font: 300 0.8125em/1.021 Merriweather Sans, sans-serif;
+}
+.post__title-font {
+  font: 700 1.125em/1.414 Merriweather Sans, sans-serif;
+}
+.project__title-font {
+  font: 700 1em/1.257 Merriweather Sans, sans-serif;
+}
+.content__post-font {
+  font: 400 1em/1.257 Merriweather Sans, sans-serif;
+}
+.project__content-font,
+.author__footer-font {
+  font: 400 0.875em/1.25 Merriweather Sans, sans-serif;
+}
+.subtitle,
+.content__java-font,
+.post__tecnologies-font,
+.years__ago-font {
+  font: 400 0.875em/1.1 Merriweather Sans, sans-serif;
+}
+.links__font {
+  font: 400 0.8125em/1.021 Merriweather Sans, sans-serif;
+}
+.tec__name-one-font,
+.tec__name-two-font,
+.tec__name-three-font {
+  font: 700 0.625em/0.786 Merriweather Sans, sans-serif;
+  text-transform: uppercase;
+  color: var(--text-color-black);
+}
+.rocket__title-font {
+  font: 400 0.943rem Merriweather Sans, sans-serif;
+}
+.rocket__content-font {
+  font: 300 0.75em/0.943rem Merriweather Sans, sans-serif;
+}
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  max-height: var(--body-height);
+  max-width: var(--body-width);
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+
+  display: grid;
+
+  grid-template-areas:
+    "aside main"
+    "footer footer";
+  grid-template-rows: 109.375rem 1fr 3.625rem; /* 1750px 1fr 58px; */
+  grid-template-columns: 24.375rem 1fr; /* 390px 1fr; */
+  grid-column-gap: 3.75rem; /* 60px;*/
+}
+aside {
+  grid-area: aside;
+  margin-top: 2.5rem; /*40px;*/
+}
+main {
+  grid-area: main;
+  margin-top: 2.5rem; /*40px;*/
+}
+footer {
+  grid-area: footer;
+}
